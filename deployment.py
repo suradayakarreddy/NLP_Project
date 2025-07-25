@@ -13,9 +13,9 @@ from nltk.corpus import stopwords
 # In[2]:
 
 
-model = joblib.load("C:/Users/Dayakar Reddy Sura/Desktop/Project447/RealorFakeNews/model.pkl")
+model = joblib.load("model.pkl")
 # Load the saved CountVectorizer
-vectorizer = joblib.load("C:/Users/Dayakar Reddy Sura/Desktop/Project447/RealorFakeNews/vectorizer.pkl")
+vectorizer = joblib.load("vectorizer.pkl")
 
 
 # In[3]:
